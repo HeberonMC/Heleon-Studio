@@ -1,6 +1,6 @@
 # Heleon Studio
 
-Launcher de Minecraft para las series de Heleon Studio (*Juicio Divino*).
+Launcher de Minecraft para las series de Heleon Studio .
 
 **Descarga el instalador** en [Releases](https://github.com/HeberonMC/Heleon-Studio/releases/latest).
 
