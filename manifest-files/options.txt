@@ -1,0 +1,3 @@
+lang:es_es
+guiScale:2
+renderDistance:10

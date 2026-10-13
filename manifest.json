@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "launcher": {
+    "name": "Heleon Studio",
+    "latestVersion": "0.1.0",
+    "theme": {
+      "accent": "#f5b942",
+      "background": "https://picsum.photos/seed/heleon-fondo/1400/800"
+    }
+  },
+  "news": [
+    {
+      "title": "¡Bienvenidos a Juicio Divino!",
+      "body": "La temporada 1 empieza pronto. Instala todo con un clic desde el launcher.",
+      "image": "https://picsum.photos/seed/heleon-noticia1/640/360",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Nuevo mod: Sodium",
+      "body": "Añadimos Sodium para que el juego vaya más fluido.\nSe instala solo al pulsar JUGAR.",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Únete al Discord",
+      "body": "Haz clic aquí para ir a nuestro servidor de Discord.",
+      "image": "https://picsum.photos/seed/heleon-noticia3/640/360",
+      "date": "2026-10-01",
+      "url": "https://discord.com"
+    }
+  ],
+  "instances": [
+    {
+      "id": "juicio-divino",
+      "name": "Juicio Divino",
+      "description": "Temporada 1 · Fabric",
+      "minecraftVersion": "1.20.1",
+      "loader": "fabric",
+      "loaderVersion": "latest",
+      "mods": [
+        {
+          "name": "Fabric API",
+          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/rvI2dfzR/fabric-api-0.92.12%2B1.20.1.jar",
+          "sha512": "de9da2344043b3e9ef9fb7dbfff5f2577b06000c4f73f2a37959a80123141169084cece19133bd299b45feaaa4648bdaca2ea085684888cc8c55cc9134a477ca",
+          "required": true
+        },
+        {
+          "name": "Sodium",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/OihdIimA/sodium-fabric-0.5.13%2Bmc1.20.1.jar",
+          "sha512": "81c64f9c2d3402dfa43ee54d8f5a054f5243bfb08984e3addcab9fe885073c79c43c1c8c41e8f30b625d26a656f82a8e5f370bbbbf222ff1c08f4b324edb7ea4",
+          "required": true
+        },
+        {
+          "name": "Lithium",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/iEcXOkz4/lithium-fabric-mc1.20.1-0.11.4.jar",
+          "sha1": "048227ed60a3005cf9fa55880dfe0cf20b0ba680",
+          "required": true
+        },
+        {
+          "name": "Mod Menu",
+          "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/lEkperf6/modmenu-7.2.2.jar",
+          "sha512": "9a7837e04bb34376611b207a3b20e5fe1c82a4822b42929d5b410809ec4b88ff3cac8821c4568f880775bafa3c079dfc7800f8471356a4046248b12607e855eb",
+          "required": false
+        }
+      ],
+      "configFiles": [
+        {
+          "path": "config/juicio-divino.json",
+          "url": "manifest-files/config/juicio-divino.json",
+          "sha1": "6f22fabc7046bc37cceb4cddb6ab1826fe66f10b",
+          "mode": "always"
+        },
+        {
+          "path": "options.txt",
+          "url": "manifest-files/options.txt",
+          "sha1": "58ecf2e7dfddf632c46ba9103f2ae765b5a1e7f5",
+          "mode": "once"
+        }
+      ],
+      "serverAddress": null
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Guardar los archivos byte a byte: los hashes (sha1/sha512) del manifiesto dependen de ello.
+* -text
