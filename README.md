@@ -1,10 +1,36 @@
-# Heleon Studio
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HeberonMC/HeberonMC/main/assets/logo.png" width="120" alt="" />
 
-Launcher de Minecraft para las series de Heleon Studio .
+  # Heleon Studio
 
-**Descarga el instalador** en [Releases](https://github.com/HeberonMC/Heleon-Studio/releases/latest).
+  Launcher de Minecraft para las series de Heleon Studio.
 
-## Cómo instalar
+  [![Descargar](https://img.shields.io/github/v/release/HeberonMC/Heleon-Studio?label=Descargar&style=for-the-badge&color=60a8f0&labelColor=0d1117)](https://github.com/HeberonMC/Heleon-Studio/releases/latest)
+  ![Windows 10/11](https://img.shields.io/badge/Windows_10%2F11-0d1117?style=for-the-badge&logo=windows&logoColor=60a8f0)
+</div>
+
+## Descripción
+
+Heleon Studio instala y abre la serie correcta (versión de Minecraft, mod loader y mods)
+sin que tengas que configurar nada. Tú inicias sesión y pulsas **JUGAR**.
+
+## Características
+
+- 🎮 Instalación automática de Java, Minecraft, mod loader y mods.
+- 🔄 Se actualiza solo: el launcher y los mods de cada serie.
+- 📰 Noticias de las series dentro del launcher.
+- 🔐 Inicio de sesión con tu cuenta de Microsoft.
+- 🔒 Series privadas: acceso por invitación o con código canjeable.
+- 💬 Estado en Discord mientras juegas.
+
+## Capturas
+
+<!-- Sube tus capturas a docs/ (o cambia estas rutas) -->
+| Inicio | Series | Ajustes |
+|---|---|---|
+| ![Inicio](docs/captura-inicio.png) | ![Series](docs/captura-series.png) | ![Ajustes](docs/captura-ajustes.png) |
+
+## Cómo usarlo
 
 1. Entra en [la última versión](https://github.com/HeberonMC/Heleon-Studio/releases/latest) y
    descarga **`HeleonStudio_x.y.z_x64-setup.exe`** (en *Assets*).
@@ -32,3 +58,7 @@ instalan solas desde el propio programa.
 - `manifest.json`: versión de Minecraft, mod loader, mods y noticias que instala el launcher.
 - `manifest-files/`: archivos de configuración que se copian en la carpeta del juego.
 - *Releases*: el instalador y `latest.json` para las actualizaciones automáticas.
+
+---
+
+<p align="center"><sub>by Heleon ST</sub></p>
